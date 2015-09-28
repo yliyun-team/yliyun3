@@ -12,8 +12,7 @@
 /doc
 /Makefile
 /release-doc.sh
-/plugins
-plugins/
+
 .DS_Store
 
 *.db
