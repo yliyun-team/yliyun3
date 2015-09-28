@@ -1,0 +1,87 @@
+{
+  "name": "yliyun3",
+  "version": "3.2.3",
+  "description": "yliyun3 base fis3",
+  "main": "index.js",
+  "bin": {
+    "fis": "bin/fis.js"
+  },
+  "dependencies": {
+    "atm3-spriter-csssprites": "*",
+    "atm3-postpackager-seajs": "*",
+    "atm3-optimizer-ng-annotate": "*",
+    "colors": "0.6.2",
+    "commander": "1.3.2",
+    "fis-command-init": "*",
+    "fis-command-install": "0.2.1",
+    "fis-command-server": "0.7.7",
+    "fis-lolcat": "1.0.1",
+    "fis-optimizer-clean-css": "0.0.9",
+    "fis-optimizer-png-compressor": "0.1.0",
+    "fis-optimizer-uglify-js": "0.1.10",
+    "fis-parser-less": "*",
+    "fis-postprocessor-jswrapper": "0.0.12",
+    "fis3-command-inspect": "1.0.3",
+    "fis3-command-release": "1.2.7",
+    "fis3-deploy-encoding": "1.0.0",
+    "fis3-deploy-http-push": "1.0.1",
+    "fis3-deploy-local-deliver": "1.0.0",
+    "fis3-errors": "*",
+    "fis3-hook-cmd": "^0.1.1",
+    "fis3-hook-components": "1.0.0",
+    "fis3-hook-module": "^1.2.2",
+    "fis3-hook-relative": "*",
+    "fis3-packager-map": "1.0.7",
+    "glob": "5.0.3",
+    "iconv-lite": "0.2.10",
+    "liftoff": "2.0.2",
+    "lodash": "3.6.0",
+    "minimatch": "2.0.4",
+    "minimist": "1.1.1",
+    "resolve": "1.1.6",
+    "tar": "0.1.17"
+  },
+  "watch": {
+    "jsdoc": "lib/*.js"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test",
+    "jsdoc": "jsdoc --readme ./doc/docs/api/dev-plugin.md ./lib -r -t ./node_modules/minami -c .jsdoc.json -d ./doc/api",
+    "watch": "npm-watch",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yliyun-team/yliyun3.git"
+  },
+  "keywords": [
+    "atm",
+    "MXD",
+    "FIS"
+  ],
+  "author": {
+    "name": "femxd"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/yliyun-team/yliyun3/issues"
+  },
+  "homepage": "https://github.com/yliyun-team/yliyun3",
+  "maintainers": [
+    {
+      "name": "2betop",
+      "email": "2betop.cn@gmail.com"
+    },
+    {
+      "name": "fansekey",
+      "email": "fansekey@gmail.com"
+    },
+    {
+      "name": "fis-dev",
+      "email": "longyun_zh@163.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
